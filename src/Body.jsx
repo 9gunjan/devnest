@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "./Navbar";
+import NavBar from "./NavBar";
 import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
 const Body = () => {
@@ -7,9 +7,8 @@ const Body = () => {
     <div>
       <NavBar />
       <Outlet />
-      <Footer/>
+      <Footer />
     </div>
   );
 };
 export default Body;
- 
